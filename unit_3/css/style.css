@@ -5,30 +5,55 @@
 }
 
 body {
-	background: url(images/galaxy.jpg)
-	text-align: center;
+	background: url(../images/galaxy.jpg) center bottom, black;
+    background-size: 100% 100%;
+	color: white;
 }
 
 h1 {
-	color: fuchsia;
+	color: #A813A7;
 	font-family: georgia, sans-serif;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 50px;
 	padding: 20px;
+	text-align: center;
 }
 
 h2, #slogan {
  	 color: white;
- 	 font-family: impact, sans-serif;
+ 	 font-family: arial, sans-serif;
  	 font-size: 26px;
  	 font-style: italic;
  	 padding: 20px;
+ 	 text-align: center;
 } 	 
 
-p  {
-	color: black;
+h3 {
+	color: white;
+ 	 font-family: arial, sans-serif;
+ 	 font-size: 20px;
+ 	 font-style: bold;
+ 	 padding: 40px;
+ 	 text-align: center;
+}
+
+p, ul, li {
+	color: white;
+	/*background: linear-gradient(black, white)*/ ;
  	font-family: arial, sans-serif;
- 	font-size: 18px;
- 	padding: 20px;
+ 	font-size: 16px;
+ 	padding: 10px;
+ 	text-align: center;
+ 	text-decoration: none;
+
+}
+
+h4, a {
+	color: black;
+	font-family: arial, sans-serif;
+ 	font-size: 16px;
+ 	padding: 10px;
+ 	text-align: center;
+ 	text-decoration: none;
 }
 
