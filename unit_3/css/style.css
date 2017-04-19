@@ -8,8 +8,8 @@
 }
 
 body {
-	background: url(../images/galaxy.jpg) /*center bottom, black*/
-    /*background-size: cover;*/
+	background: url(../images/galaxy.jpg) center bottom, black
+    background-size: cover;
 	color: white;
 }
 
