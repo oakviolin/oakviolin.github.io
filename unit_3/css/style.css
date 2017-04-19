@@ -8,9 +8,9 @@
 }
 
 body {
-	background: url(../images/galaxy.jpg) center bottom, black;
-    background-size: cover;
-	color: white;
+	/*background: url(../images/galaxy.jpg) center bottom, black;*/
+    background-color: black;
+	/*color: white;*/
 }
 
 h1 {
