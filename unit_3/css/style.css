@@ -1,3 +1,6 @@
+/*@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');*/
+
+
 * {
 	padding: 0;
 	margin: 0;
@@ -5,14 +8,14 @@
 }
 
 body {
-	background: url(../images/galaxy.jpg) center bottom, black;
-    background-size: 100% 100%;
+	background: url(../images/galaxy.jpg) /*center bottom, black*/
+    /*background-size: cover;*/
 	color: white;
 }
 
 h1 {
 	color: #A813A7;
-	font-family: georgia, sans-serif;
+	font-family:'Rubik Mono One', sans-serif;
 	font-weight: bold;
 	font-size: 50px;
 	padding: 20px;
@@ -49,7 +52,7 @@ p, ul, li {
 }
 
 h4, a {
-	color: black;
+	color: orange;
 	font-family: arial, sans-serif;
  	font-size: 16px;
  	padding: 10px;
