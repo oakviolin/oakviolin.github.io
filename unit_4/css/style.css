@@ -30,7 +30,7 @@ h2, #slogan {
  	 font-style: italic;
  	 padding: 0;
  	 text-align: center;
-} 	 
+}
 
 h2, h3, h4, h5, a, p {
 	font-family: 'Gloria Hallelujah', cursive;
@@ -40,8 +40,9 @@ h3, #tagline {
 	color: white;
  	font-size: .6em;
  	font-style: italic;
- 	/*width: 35em;*/
+ 	width: 27em;
  	text-align: center;
+ 	margin: auto;
 }
 
 p {
@@ -52,14 +53,14 @@ p {
 	/*background: linear-gradient(black, white)*/ ;
  	font-family:'Rubik Mono One', sans-serif;
  	font-size: .4em;
- 	padding: 10px;
+ 	padding: 20px;
  	text-align: center;
  	text-decoration: none;
 }
 
 #instruction {
 	color: white;
-	font-size: .5em;
+	font-size: .6em;
  	padding: 10px;
  	text-align: center;
  	text-decoration: none;
@@ -69,17 +70,20 @@ p {
 #bottom {
 	color: yellow;
 	font-size: .6em;
- 	padding: 10px;
+ 	padding: 20px;
  	text-align: center;
  	text-decoration: none;
+ 	vertical-align: text-bottom;
  }
 
 a {
 	color: orange;
 	font-size: 1em;
- 	padding: 10px;
+ 	padding: 20px;
  	text-align: center;
  	text-decoration: none;
+ 	vertical-align: text-bottom;
+
 }
 
 
