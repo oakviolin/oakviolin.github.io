@@ -32,7 +32,7 @@ h2, #slogan {
  	 text-align: center;
 } 	 
 
-h2, h3, h4, p, ul, li, a {
+h2, h3, h4, a {
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
@@ -47,10 +47,12 @@ h3 {
 p, #beers {
 	color: white;
 	/*background: linear-gradient(black, white)*/ ;
+ 	font-family:'Rubik Mono One', sans-serif;
  	font-size: .6em;
  	padding: 10px;
  	text-align: center;
  	text-decoration: none;
+
 
 }
 
