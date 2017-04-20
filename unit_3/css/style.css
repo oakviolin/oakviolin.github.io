@@ -26,7 +26,7 @@ h1, #brand {
 
 h2, #slogan {
  	 color: white;
- 	 font-size: 1em;
+ 	 font-size: 1.75em;
  	 font-style: italic;
  	 padding: 20px;
  	 text-align: center;
@@ -37,8 +37,8 @@ h2, h3, h4, p, ul, li, a {
 }
 
 h3 {
-	color: fuchsia;
- 	 font-size: 2em;
+	color: lightblue;
+ 	 font-size: .75em;
  	 font-style: bold;
  	 padding: 40px;
  	 text-align: center;
@@ -47,7 +47,7 @@ h3 {
 p, #beers {
 	color: white;
 	/*background: linear-gradient(black, white)*/ ;
- 	font-size: 1em;
+ 	font-size: .6em;
  	padding: 10px;
  	text-align: center;
  	text-decoration: none;
@@ -56,7 +56,7 @@ p, #beers {
 
 h4, a {
 	color: yellow;
-	font-size: 1em;
+	font-size: .75em;
  	padding: 10px;
  	text-align: center;
  	text-decoration: none;
