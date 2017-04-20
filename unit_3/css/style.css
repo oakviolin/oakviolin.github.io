@@ -11,13 +11,14 @@ body {
 	background: url(../images/galaxy.jpg), black;
     background-color: black;
 	background-size: cover;
+	font-size: 36px
 }
 
-h1 {
+h1, #brand {
 	color: #A813A7;
 	font-family:'Rubik Mono One', sans-serif;
 	font-weight: bold;
-	font-size: 75px;
+	font-size: 2em;
 	background-color: black;
 	padding: .3em;
 	text-align: center;
@@ -25,7 +26,7 @@ h1 {
 
 h2, #slogan {
  	 color: white;
- 	 font-size: 26px;
+ 	 font-size: 1em;
  	 font-style: italic;
  	 padding: 20px;
  	 text-align: center;
@@ -36,8 +37,8 @@ h2, h3, h4, p, ul, li, a {
 }
 
 h3 {
-	color: white;
- 	 font-size: 20px;
+	color: fuchsia;
+ 	 font-size: 2em;
  	 font-style: bold;
  	 padding: 40px;
  	 text-align: center;
@@ -46,7 +47,7 @@ h3 {
 p, #beers {
 	color: white;
 	/*background: linear-gradient(black, white)*/ ;
- 	font-size: 16px;
+ 	font-size: 1em;
  	padding: 10px;
  	text-align: center;
  	text-decoration: none;
@@ -55,7 +56,7 @@ p, #beers {
 
 h4, a {
 	color: yellow;
-	font-size: 16px;
+	font-size: 1em;
  	padding: 10px;
  	text-align: center;
  	text-decoration: none;
