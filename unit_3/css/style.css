@@ -43,7 +43,7 @@ h3 {
  	 text-align: center;
 }
 
-p, ul, li {
+p, #beers {
 	color: white;
 	/*background: linear-gradient(black, white)*/ ;
  	font-size: 16px;
