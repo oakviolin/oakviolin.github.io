@@ -36,29 +36,51 @@ h2, h3, h4, h5, a, p {
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
-h3, #tagline {
+h3, #blurb {
 	color: white;
- 	font-size: .6em;
+ 	font-size: 1em;
  	font-style: italic;
  	width: 27em;
  	text-align: center;
  	margin: auto;
 }
 
-p {
+#sixpack {
+	background-color: black;
 	color: white;
+	font-family:'Rubik Mono One', sans-serif;
+	font-weight: bold;
+	font-size: .5em;
+	width: 100%;
+	padding: 10px;
+	margin: auto;
+	border: white;
+	float: left;
 }
- #beers {
+
+  /*{
 	color: white;
-	/*background: linear-gradient(black, white)*/ ;
  	font-family:'Rubik Mono One', sans-serif;
  	font-size: .4em;
+ 	font-color: white;
  	padding: 20px;
  	text-align: center;
  	text-decoration: none;
+}*/
+
+#beer1, #beer2, #beer3, #beer4, #beer5 {
+	background-color: black;
+	font-family:'Rubik Mono One', sans-serif;
+	font-weight: bold;
+	font-size: .5em;
+	color: white;
+	width: 1px;
+	padding: 20px;
+	margin: 0;
+	float: left;
 }
 
-#instruction {
+#blurb {
 	color: white;
 	font-size: .6em;
  	padding: 10px;
@@ -67,7 +89,7 @@ p {
 }
 
 
-#bottom {
+#footer {
 	color: yellow;
 	font-size: .6em;
  	padding: 20px;
