@@ -46,19 +46,16 @@ h3, #blurb {
 }
 
 #sixpack {
-	background-color: #FFB7CF;
+	background-color: grey;
     border: 1px black solid;
-    padding: 20px;
-	/*background-color: black;
+    padding: 10px;
 	color: white;
 	font-family:'Rubik Mono One', sans-serif;
 	font-weight: bold;
 	font-size: .5em;
 	width: 100%;
-	padding: 10px;
 	margin: auto;
-	border: white;
-	float: left;*/
+	float: left;
 }
 
   /*{
@@ -71,16 +68,16 @@ h3, #blurb {
  	text-decoration: none;
 }*/
 
-#beer1 {
-    background-color: #E582A2;
+#beer1, #beer2, #beer3, #beer4, #beer5 {
+    background-color: black;
     border: 1px black solid;
     padding: 20px;
     float: left;
-    width: 30%;
+    width: 15%;
 }
 
-#beer2 {
-    background-color: #E55B88;
+/*#beer2 {
+    background-color: grey;
     border: 1px black solid;
     padding: 20px;
     float: right;
@@ -88,7 +85,7 @@ h3, #blurb {
 }
 
 
-/*#beer3, #beer4, #beer5 {
+#beer3, #beer4, #beer5 {
 	background-color: black;
 	font-family:'Rubik Mono One', sans-serif;
 	font-weight: bold;
@@ -109,7 +106,7 @@ h3, #blurb {
 }
 
 
-#footer {
+#footer, h5 {
 	color: yellow;
 	font-size: .6em;
  	padding: 20px;
@@ -128,7 +125,7 @@ a {
 }
 
 
-#two_column {
+/*#two_column {
     background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
@@ -147,7 +144,7 @@ a {
     border: 1px black solid;
     padding: 20px;
     float: right;
-    width: 30%;
+    width: 30%;*/
 }
 
 .clearfix:after {
