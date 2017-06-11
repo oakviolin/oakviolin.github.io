@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Rubik+Mono+One');
+
+
+* {
+	padding: 5;
+	margin: 15;
+}
+
+body {
+	background: url(../images/galaxy3.jpg), black;
+    background-color: black;
+	background-size: cover;
+	font-size: 36px;
+	
+}
+
+h1, #brand {
+	color: #A34DCC;
+	font-family:'Rubik Mono One', sans-serif;
+	font-weight: bold;
+	font-size: 1.75em;
+	background-color: black;
+	padding: 0;
+	text-align: center;
+}
+
+h2, #slogan {
+ 	 color: white;
+ 	 font-size: 1em;
+ 	 font-style: italic;
+ 	 padding: 0;
+ 	 text-align: center;
+}
+
+h2, h3, h4, h5, a, p {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+h3, #blurb {
+	color: white;
+ 	font-size: 1em;
+ 	font-style: italic;
+ 	width: 27em;
+ 	text-align: center;
+ 	margin: auto;
+}
+
+#sixpack {
+	background-color: black;
+	color: white;
+	font-family:'Rubik Mono One', sans-serif;
+	font-weight: bold;
+	font-size: .5em;
+	width: 100%;
+	padding: 10px;
+	margin: auto;
+	border: white;
+	float: left;
+}
+
+  /*{
+	color: white;
+ 	font-family:'Rubik Mono One', sans-serif;
+ 	font-size: .4em;
+ 	font-color: white;
+ 	padding: 20px;
+ 	text-align: center;
+ 	text-decoration: none;
+}*/
+
+#beer1, #beer2, #beer3, #beer4, #beer5 {
+	background-color: black;
+	font-family:'Rubik Mono One', sans-serif;
+	font-weight: bold;
+	font-size: .5em;
+	color: white;
+	width: 1px;
+	padding: 20px;
+	margin: 0;
+	float: left;
+}
+
+#blurb {
+	color: white;
+	font-size: .6em;
+ 	padding: 10px;
+ 	text-align: center;
+ 	text-decoration: none;
+}
+
+
+#footer {
+	color: yellow;
+	font-size: .6em;
+ 	padding: 20px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	vertical-align: text-bottom;
+ }
+
+a {
+	color: orange;
+	font-size: 1em;
+ 	padding: 20px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	vertical-align: text-bottom;
+}
+
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 30%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
