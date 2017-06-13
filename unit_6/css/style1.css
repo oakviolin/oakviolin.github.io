@@ -45,7 +45,7 @@ h2, h3, h4, h5, a, p {
 
 h3, #blurb {
 	color: white;
- 	font-size: 1em;
+ 	font-size: .85em;
  	font-style: italic;
  	width: 27em;
  	text-align: center;
@@ -86,15 +86,7 @@ h3, #blurb {
  	text-decoration: none;
  	vertical-align: text-bottom;
  }
-/*
-a {
-	color: orange;
-	font-size: 1em;
- 	padding: 20px;
- 	text-align: center;
- 	text-decoration: none;
- 	vertical-align: text-bottom;
-}*/
+
 
 .clearfix:after {
     visibility: hidden;
