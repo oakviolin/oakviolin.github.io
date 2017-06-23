@@ -63,7 +63,7 @@ h3, #blurb {
 	float: left;
 }
 
-#beer1, #beer2, #beer3, #beer4, #beer5, .transparent {
+#beers, .transparent {
     /*color: white;
 	font-family:'Rubik Mono One', sans-serif;
 	font-weight: bold;
@@ -74,7 +74,7 @@ h3, #blurb {
     margin: .75em;
     float: left;
     text-align: center;
-    width: 12%;
+    width: 17%;
 }
 
 
@@ -97,3 +97,7 @@ h3, #blurb {
     height: 0;
 }
 
+@media screen only and (min-width: 1395px) {
+body {
+font-size: 12px;
+}
