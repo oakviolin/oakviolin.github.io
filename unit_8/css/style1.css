@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Rubik+Mono+One');
 
 
-* {
-	padding: 0;
-	margin: 0.1;
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box;
 }
 
 body {
 	background: url(../images/galaxy3.jpg), black;
     background-color: black;
 	background-size: cover;
-	font-size: 36px;
-	
+	font-size: 2.3em;	
 }
 
 header, #blurb {
@@ -19,6 +19,7 @@ header, #blurb {
 	width: 27em;
  	text-align: center;
  	margin: auto;
+ 	padding: 1em;
 }
 
 h1, #brand {
@@ -26,7 +27,7 @@ h1, #brand {
 	font-family:'Rubik Mono One', sans-serif;
 	font-weight: bold;
 	font-size: 1.75em;
-	padding: 0em;
+	padding: .5em;
 	text-align: center;
 }
 
@@ -56,7 +57,7 @@ h3, #blurb {
 	color: white;
 	font-family:'Rubik Mono One', sans-serif;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: .75em;
 	width: 100%;
 	margin: auto;
 	float: left;
